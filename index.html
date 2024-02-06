@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Play Store Link</title>
+</head>
+<body>
+
+<!-- Button that opens the Play Store link -->
+<button id="openLinkBtn">TVET NATED Question Papers</button>
+
+<script>
+    // Function to open the Play Store link
+    function openPlayStoreLink() {
+        // Replace the link with your actual Play Store link
+        var playStoreLink = "https://play.google.com/store/apps/details?id=com.xp.natedexampapers";
+        
+        // Open the link in a new tab
+        window.open(playStoreLink, '_blank');
+    }
+
+    // Attach the function to the button click event
+    document.getElementById("openLinkBtn").addEventListener("click", openPlayStoreLink);
+</script>
+
+</body>
+</html>
